@@ -20,7 +20,7 @@ class WidgetOpaco extends AnimatedOpacity {
     int? milliseconds,
   }) : super(
           opacity: isVisible ? 1 : 0,
-          duration: Duration(milliseconds: milliseconds ?? 600),
+          duration: Duration(milliseconds: milliseconds ?? 500),
           child: isVisible ? child : SizedBox(),
         );
 }
